@@ -13,3 +13,4 @@ Put an array with this configuration in the DB connection Object:
     'PASSWORD',
     array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
 )`
+
