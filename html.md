@@ -12,3 +12,14 @@ Insert the following line to the `head` tag: `<meta http-equiv="Content-Type" co
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 ```
+
+## Body
+
+### Text Direction
+In order to inform the browser about the main language direction of the page, an attribute of `dir` should be attached to the `<body>` tag.
+
+
+**Example**
+```html
+<div dir=”rtl”>
+```
