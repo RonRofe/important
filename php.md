@@ -37,3 +37,15 @@ Should be set in the top of the file: `date_default_timezone_set(TIME_ZONE_NAME)
 ```php
 date_default_timezone_set('Asia/Jerusalem');
 ```
+
+### Errors Display
+Enforce the server to display or not errors when occurring.  
+Paste the following line on the top of the file: `ini_set('display_errors', ONE_OR_ZERO);`  
+This will Change the error configuration on php.ini server file.  
+*1* = DISPLAY  
+*0* = DO NOT DISPLAY
+
+**Example:**
+```php
+ini_set('display_errors', 1);
+```
