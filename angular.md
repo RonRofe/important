@@ -19,7 +19,7 @@ Installing Angular Material locally in the project: `ng add @angular/material`
 
 ### Generating Component
 Generate a new component to the project by the CLI: `ng g c COMPONENT_PATH_AND_NAME --skipTests`  
-*Remove `-skipTests` if interested in the spec file*
+*Remove `--skipTests` if interested in the spec file*
 
 ## Pipes
 
