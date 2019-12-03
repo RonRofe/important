@@ -1,4 +1,4 @@
-# Important things
+# Important things and tricks
 
 ## Github editors
 [https://jbt.github.io/markdown-editor/](https://jbt.github.io/markdown-editor/)  
