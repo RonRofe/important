@@ -43,3 +43,31 @@ export class [PIPE_CLASS]Pipe implements PipeTransform {
 }
 ```
 3. Import the class into `app.module.ts` file and use it in `delcarations:` array.
+
+## NgModule
+
+## imports & exports shortcut
+
+Instead of importing and exporting the same module in `NgModule`, we can use the shortcut - use `exports:` only.  
+
+**Example:**
+```typescript
+    @NgModule({
+        imports: [
+        MatInputModule
+        ],
+        exports: [
+            MatIpnutModule
+        ]
+    })
+    export class AngularMaterialModule {}
+```
+Replace with:
+```typescript
+    @NgModule({
+        exports: [
+            MatIpnutModule
+        ]
+    })
+    export class AngularMaterialModule {}
+```
