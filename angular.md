@@ -21,6 +21,10 @@ Installing Angular Material locally in the project: `ng add @angular/material`
 Generate a new component to the project by the CLI: `ng g c COMPONENT_PATH_AND_NAME --skipTests`  
 *Remove `--skipTests` if interested in the spec file*
 
+### Deployment
+Prepare all front-end files for deploying the app: `ng build --prod`  
+Destination folder can be set under `angular.json` file -> `outputPath`. 
+
 ## Pipes
 
 ### Add Pipe
