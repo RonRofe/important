@@ -25,6 +25,9 @@ Generate a new component to the project by the CLI: `ng g c COMPONENT_PATH_AND_N
 Prepare all front-end files for deploying the app: `ng build --prod`  
 Destination folder can be set under `angular.json` file -> `outputPath`. 
 
+### Check For Updates Of Angular Dependencies
+Run the following to analyse non updated packages: `ng update`.
+
 ## Pipes
 
 ### Add Pipe
