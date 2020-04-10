@@ -33,9 +33,7 @@ cat ORIGIN >> DESITION
 ## clear
 Clear the terminal: `clear`.
 
-**Example:**
-```html
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+## Copy file contents
+```
+pbcopy < [FILE_NAME]
 ```
